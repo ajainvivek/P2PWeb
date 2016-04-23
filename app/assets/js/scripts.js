@@ -20,8 +20,9 @@
 
     if (OSName === "Windows" || OSName === "Unknown OS") {
       $(".js-download-button").attr("href", url + "p2pdrop-win32-x64.zip");
-      $(".js-download-button.btn-2").show();
+      $(".js-download-button.btn-2").css("display", "block");
       $(".js-download-button.btn-2").attr("href", url + "p2pdrop-win32-ia32.zip");
+      $(".support").text("For Window 7 or later.");
       $(".os").text(OSName + " (64bit)");
       $(".os2").text(OSName + " (32bit)");
     } else if (OSName === "MacOS") {
@@ -30,7 +31,7 @@
       $(".os").text(OSName);
     } else {
       $(".js-download-button").attr("href", url + "p2pdrop-linux-x64.zip");
-      $(".js-download-button.btn-2").show();
+      $(".js-download-button.btn-2").css("display", "block");
       $(".js-download-button.btn-2").attr("href", url + "p2pdrop-linux-ia32.zip");
       $(".os").text(OSName + " (64bit)");
       $(".os2").text(OSName + " (32bit)");

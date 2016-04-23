@@ -490,7 +490,9 @@ th {
             border-radius: 5px;
             background: #63584E;
             box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
-            text-decoration: none; }
+            text-decoration: none;
+            width: 250px;
+            margin: 0px auto; }
             .main .call-to-action .wrapper .columns .column.left .download-button.btn-2 {
               background: #849189;
               margin-top: 10px;
