@@ -11,7 +11,7 @@
   'use strict';
 
   $(function () {
-    var url = "https://github.com/ajainvivek/P2PWeb/raw/master/app/assets/packages/";
+    var url = "/assets/packages/";
     var OSName="Unknown OS";
     if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
     else if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
