@@ -491,6 +491,10 @@ th {
             background: #63584E;
             box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
             text-decoration: none; }
+            .main .call-to-action .wrapper .columns .column.left .download-button.btn-2 {
+              background: #849189;
+              margin-top: 10px;
+              display: none; }
           .main .call-to-action .wrapper .columns .column.left .version-support {
             display: block;
             font-size: 14px;
