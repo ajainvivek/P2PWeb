@@ -1,0 +1,186 @@
+.main {
+  .call-to-action {
+      background-color: #efeae1;
+      padding: 10px 0 0;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      padding: 50px 0 190px;
+      height: 590px;
+      background-image: url("../img/bg.png"), url("../img/hero-tile.png");;
+      background-position: 50% 0;
+      background-size: auto, auto 100%;
+      background-repeat-y: no-repeat, repeat;
+
+
+      .wrapper {
+        width: 860px;
+        margin: 0 auto;
+        padding-left: 40px;
+        padding-right: 40px;
+        overflow: hidden;
+
+        .columns {
+            overflow: hidden;
+            width: 100%;
+
+            .column {
+                vertical-align: middle;
+                float: left;
+
+                &:first-child {
+                    padding-left: 0;
+                    padding-right: 20px;
+                }
+
+                &.left {
+                  width: 50%;
+
+                  header {
+                    &.top-bar {
+                      padding: 10px 0;
+                      background-color: none;
+                    }
+                    h1 {
+                        margin: 0;
+                        display: inline-block;
+
+                        .logo {
+                            display: block;
+                            width: 259px;
+                            height: 104px;
+                            line-height: 0;
+                            color: #66595c;
+                            text-decoration: none;
+                            text-indent: 230px;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            background-image: url("../img/header-logo.png");
+                        }
+                    }
+
+                    h2 {
+                        margin: 0;
+                        line-height: 1.4;
+                        font-size: 30px;
+                        font-weight: 300;
+                        color: #849189;
+                    }
+                  }
+
+                  .download-button {
+                      display: inline-block;
+                      height: auto;
+                      margin-top: 40px;
+                      padding: 0.8em 1.2em;
+                      color: #EFEAE1;
+                      line-height: 1.5;
+                      font-size: 16px;
+                      font-weight: 400;
+                      text-shadow: none;
+                      border-radius: 5px;
+                      background: #63584E;
+                      box-shadow: 4px 4px rgba(0,0,0,0.1);
+                      text-decoration: none;
+                  }
+
+                  .version-support {
+                      display: block;
+                      font-size: 14px;
+                      margin-top: 10px;
+                      color: #849189;
+                      a {
+                          color: #66595C;
+                          text-decoration: none;
+                      }
+                  }
+                }
+
+                &.right {
+                  width: 50%;
+                }
+            }
+
+        }
+
+        .no-pad {
+            padding-left: 0;
+            padding-right: 0;
+            width: 860px;
+            margin: 0 auto;
+
+            .screenshot-main {
+              display: block;
+              height: 456px;
+              width: 860px;
+              background-image: url("../img/screenshot.png");
+              border-radius: 5px;
+              box-shadow: 0 14px 12px -10px rgba(0,8,26,0.32);
+              margin-top: 60px;
+              background-size: 100% 100%;
+          }
+        }
+
+        .welcome-blurb {
+            font-weight: 300;
+            font-size: 26px;
+            line-height: 1.4;
+            margin-bottom: 60px;
+        }
+      }
+
+      footer {
+        background: #FAF6EC;
+        .feature {
+            display: table;
+
+            .left {
+              height: 270px;
+
+              img {
+                margin: 45px 0px;
+              }
+            }
+
+            .column {
+                display: table-cell;
+                float: none;
+            }
+
+            .right {
+              height: 270px;
+              padding-left: 20px;
+              padding-right: 0;
+
+              .contact-title {
+                  font-size: 40px;
+                  font-weight: 300;
+                  line-height: 1.4;
+                  margin: 20px 0 20px 0;
+              }
+              .contact-list {
+                  list-style-type: 0;
+                  padding-left: 0;
+                  margin-left: 65px;
+                  text-align: left;
+                  td:first-child {
+                      padding-right: 10px;
+                  }
+
+                  a {
+                      padding: 5px;
+                      color: #40a977;
+                      text-decoration: none;
+                  }
+              }
+            }
+
+            h3 {
+              font-weight: 300;
+              font-size: 30px;
+              margin-top: 0;
+            }
+        }
+      }
+  }
+}
