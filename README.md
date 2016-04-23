@@ -1,4 +1,11 @@
-# P2PDrop Official Website
+<h1 align="center">
+  <br>
+  <img src="http://i.imgur.com/OiyFJKz.png" alt="P2PDrop" width="200">
+  <br>
+  P2PDrop Official Website
+  <br>
+  <br>
+</h1>
 
 <h4 align="center">Securely share files between peers powered by WebRTC</h4>
 
